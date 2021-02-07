@@ -135,7 +135,7 @@ char *serverState(int count)
 void menu(char port[])
 {
 	system("clear");
-	printf("**** ARGOS network team chat server ****\n");
+	printf("**** chat practice server ****\n");
 	printf("server port    : %s\n", port);
 	printf("server state   : %s\n", serverState(clnt_cnt));
 	printf("max connection : %d\n", MAX_CLNT);
