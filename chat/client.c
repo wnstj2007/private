@@ -162,7 +162,7 @@ void changeName()
 void menu()
 {
 	system("clear");
-	printf("**** ARGOS network team chatting client ****\n");
+	printf("**** chat practice client ****\n");
 	printf("server port : %s\n", serv_port);
 	printf("client IP   : %s\n", clnt_ip);
 	printf("chat name   : %s\n", name);
